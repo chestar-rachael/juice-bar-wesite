@@ -25,7 +25,7 @@
         })
         .then(response => response.text())
         .then(result => {
-            alert('Message sent successfully!');
+            alert('Thank you for your message! We will get back to you soon.');
             this.reset(); // Reset the form
         })
         .catch(error => {
